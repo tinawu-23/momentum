@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.greeting {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("pic.jpg");
+    background-repeat: no-repeat;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.greeting .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Didot', serif;
+    color: #ff4c00;
+    font-size: 300%;
+    font-weight: 200;
+    font-variant: small-caps;
+    position: relative;
+    bottom: 30px;
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+}
+
+.content i {
+    font-size: 2rem;
+    text-align:center;
+    position: relative;
+    bottom: 5px;
+}
+
+.content p {
+    font-family: 'Didot', serif;
+    text-align: center;
+    color: #ed7741;
+    font-size: 110%;
+    animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+}
+
+@keyframes fadein {    
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
