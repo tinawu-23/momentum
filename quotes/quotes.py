@@ -5,7 +5,7 @@ import json
 
 print('Enter quotes below, press q to quit:')
 
-with open('quotes\quotes.json') as f:
+with open('quotes.json') as f:
     quotesdict = json.load(f)
 
 index = int(sorted(list(quotesdict.keys()))[-1])
@@ -18,5 +18,5 @@ while quotes.rstrip() != 'q':
     quotes = sys.stdin.readline()
 
 print(quotesdict)
-with open('quotes\quotes.json', 'w') as f:
+with open('quotes.json', 'w') as f:
     json.dump(quotesdict, f)
