@@ -1,4 +1,5 @@
 ### Tina's Homepage 
 
 - [x] Create static landing page
-- [ ] Add navigation bar
+- [x] Add navigation bar
+- [ ] Add random background image
