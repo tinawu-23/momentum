@@ -9,7 +9,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url("pic.jpg");
+    background: url("pics/pic.jpg");
     background-repeat: no-repeat;
     display: table;
     top: 0;
