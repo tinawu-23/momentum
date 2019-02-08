@@ -5,6 +5,14 @@ html, body {
     width: 100%;
 }
 
+.weather {
+    position:absolute;
+    top:0;
+    right:0;
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+}
+
 .greeting {
     height: 100%;
     width: 100%;
